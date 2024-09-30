@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: #9AA0A6;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header {
+    text-align: center;
+    background-color: #9AA0A6;
+    margin: auto;
+    margin-top: 15%;
+}
+
+header img:hover{
+    transform: scale(.85);
+    opacity: .5;
+}
+
+nav {
+    background-color: white;
+    max-width: 25%;
+    padding: 3%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+nav img:hover {
+    opacity: .5;
+    transform: scale(1.05);
+}
+
+main {
+    max-width: 65%;
+    padding: 3%;
+    background-color: #EAF3F3;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #354BF5;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h3 {
+    background-color: #354BF5;
+    color: #EAF3F3;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+h4 {
+    color: #EAF3F3;
+}
+section {
+    width: 50%;
+    border: 1px solid #F2F566;
+    text-align: center;
+    padding: 3%;
+    margin: 2%;
+}
+section img {
+    background-color: #A2F54C;
+    padding: 2%;
+    color: #354BF5;
+}
+section :hover{
+    transform: scale(1.05);
+    background-color: #354BF5;
+}
+
+p {
+    color: black;
+    font-size: 16pt;
+}
+a {
+    text-decoration: none;
+
+}
+
+footer { 
+    background-color: #354BF5 ;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: smaller;
+    text-align: center;
+    
+}
+footer h1 {
+    text-align: right;
+}
+
+#menu {
+    border: 3px, solid, #354BF5;
+    padding: 5%;
+}
